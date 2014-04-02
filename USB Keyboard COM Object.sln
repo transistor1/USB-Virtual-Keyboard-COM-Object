@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USB Keyboard COM Object", "USB Keyboard COM Object\USB Keyboard COM Object.csproj", "{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup Project 64-bit", "SetupProject\SetupProject.vdproj", "{6343EC95-25F8-4447-87FD-C77CB40AFF32}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB} = {A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7F55CE1-87AE-4D84-93D4-FDC0975C059A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup Project 32-bit", "SetupProject\SetupProject32Bit.vdproj", "{16DED679-23C6-4FED-95C0-BFE0B97CCE94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A7592FD5-F77D-49FB-95F1-B2CFBAB9E9DB}.Release|x86.ActiveCfg = Release|Any CPU
+		{6343EC95-25F8-4447-87FD-C77CB40AFF32}.Debug|Any CPU.ActiveCfg = Debug
+		{6343EC95-25F8-4447-87FD-C77CB40AFF32}.Debug|Any CPU.Build.0 = Debug
+		{6343EC95-25F8-4447-87FD-C77CB40AFF32}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{6343EC95-25F8-4447-87FD-C77CB40AFF32}.Debug|Mixed Platforms.Build.0 = Debug
+		{6343EC95-25F8-4447-87FD-C77CB40AFF32}.Debug|x86.ActiveCfg = Debug
+		{6343EC95-25F8-4447-87FD-C77CB40AFF32}.Debug|x86.Build.0 = Debug
+		{6343EC95-25F8-4447-87FD-C77CB40AFF32}.Release|Any CPU.ActiveCfg = Release
+		{6343EC95-25F8-4447-87FD-C77CB40AFF32}.Release|Mixed Platforms.ActiveCfg = Release
+		{6343EC95-25F8-4447-87FD-C77CB40AFF32}.Release|Mixed Platforms.Build.0 = Release
+		{6343EC95-25F8-4447-87FD-C77CB40AFF32}.Release|x86.ActiveCfg = Release
+		{6343EC95-25F8-4447-87FD-C77CB40AFF32}.Release|x86.Build.0 = Release
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Debug|Any CPU.ActiveCfg = Debug
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Debug|Any CPU.Build.0 = Debug
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Debug|Mixed Platforms.Build.0 = Debug
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Debug|x86.ActiveCfg = Debug
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Debug|x86.Build.0 = Debug
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Release|Any CPU.ActiveCfg = Release
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Release|Any CPU.Build.0 = Release
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Release|Mixed Platforms.ActiveCfg = Release
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Release|Mixed Platforms.Build.0 = Release
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Release|x86.ActiveCfg = Release
+		{16DED679-23C6-4FED-95C0-BFE0B97CCE94}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
